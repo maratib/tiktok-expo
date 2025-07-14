@@ -1,6 +1,8 @@
-# Welcome tiktok-expo clone 👋
+# tiktok-expo clone 👋
 
-## Using latest version as of July, 2025
+## Version
+
+Using latest version as of July, 2025
 
 Expo : 53, React 19,
 
