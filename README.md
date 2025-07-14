@@ -14,14 +14,6 @@ npm install
 # -c will clear the cache to prevent some annoying errors
 npx expo start -c
 
-git checkout -b clean
-git add .
-git commit -m "clean commit"
-git checkout main
-git merge clean
-git push
-git checkout -b add-native-wind
-
 # Adding nativewind
 npm install nativewind react-native-reanimated@~3.17.4 react-native-safe-area-context@5.4.0
 npm install -D tailwindcss@^3.4.17 prettier-plugin-tailwindcss@^0.5.11
@@ -81,10 +73,4 @@ import "../assets/global.css";
 <View className="flex-1 items-center justify-center">
   <Text className="text-red-400 text-3xl font-bold">Home Screen!</Text>
 </View>
-```
-
-```bash
-git add .
-git commit -m "nativewind added"
-git push --set-upstream origin add-native-wind
 ```
