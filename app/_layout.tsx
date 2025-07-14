@@ -1,6 +1,7 @@
 import { useFonts } from "expo-font";
 import { Stack } from "expo-router";
 import "react-native-reanimated";
+import "../assets/global.css"; // Ensure you have a styles file for global styles
 
 export default function RootLayout() {
   const [loaded] = useFonts({

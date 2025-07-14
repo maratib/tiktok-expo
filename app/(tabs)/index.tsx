@@ -1,11 +1,11 @@
-import { SafeAreaView, Text, View } from "react-native";
+import { Text, View } from "react-native";
 
 export default function HomeScreen() {
   return (
-    <SafeAreaView>
-      <View>
-        <Text>Welcome to the Home Screen!</Text>
-      </View>
-    </SafeAreaView>
+    <View className="flex-1 items-center justify-center">
+      <Text className="text-red-400 text-3xl font-bold">
+        Home Screen 123 33!
+      </Text>
+    </View>
   );
 }
